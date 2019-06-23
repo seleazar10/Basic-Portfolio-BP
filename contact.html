@@ -7,125 +7,81 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 
-    <title>Eleazar Portfolio - BTS</title>
-<!-- 
+    <title>Eleazar Portfolio - BP</title>
+    <!-- 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="assets/css/querry.css">
 
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/WebFound-CSS/form-style.css"> -->
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+ -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand bg-info text-white p-3" href="index.html">
+            <h1>Stama Eleazar</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <div class="float-right">  -->
+        <!-- fixed after grid -->
 
-        <div class="top">
-
-            <div class="header">
-
-                <div class="nav">
-
-                    <p class="my-name">Stama Eleazar</p>
-
-                    <ul class="navi-buttons">
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="portolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-
-
-                    </ul>
-
-                </div>
-
-            </div>
 
         
+        <div class="collapse navbar-collapse text-secondary" id="navbarNavAltMarkup">
 
-        <!------------------------------------------------------------------------------------------------------------------>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
+                <a class="float-right nav-item nav-link" href="portolio.html">Portfolio</a>
+                <a class="float-right nav-item nav-link" href="contact.html">Contact</a>
 
- <div class="section">
-
-
-    <div class="box">
-
-   
-           
-
-            
-
-    <!----------------edited W3 form HTML------------------->
-    <section class="first-sec">
-
-            <div class="sec-border">
-
-    <div class="container med">
-            <form action="action_page.php">
-          
-              <label for="fname">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name..">
-          
-              <label for="lname">Email</label>
-              <input type="text" id="Email" name="Email" placeholder="Your email..">
-          
-              <label for="Reason">Reason</label>
-              <select id="Reason" name="Reason">
-                <option value="Drop_Menu_blank">   </option>
-                <option value="Business Opportunity">Business Opportunity</option>
-                <option value="Collaboration">Collaboration</option>
-                <option value="Other Inquiry">Other Inquiry</option>
-              </select>
-          
-              <label for="subject">Subject</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
-          </div> 
-
+            </div>
         </div>
 
-    </section>
+        <!-- </div> -->
+    </nav>
 
-    <!---------------------------------------------------------->
+    <!-- Section -->
 
-    </div>
-    </div>
-    </div>
-   
-    
+        <form pb-5>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Your name...">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Your email...">
+
+            </div>
+            <label for="exampleInputEmail1">Reason</label>
+            <select class="form-control">
+                    <option>      </option>
+                    <option>Business Opportunity</option>
+                    <option>Collaboration</option>
+                    <option>>Other Inquiry</option>
+                  </select>
+
+            <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Subject</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write something..."></textarea>></textarea>
+            </div>
 
 
+            <button type="submit" class="btn btn-info">Submit</button>
+        </form>
 
-<!---------------------------------------------------Section--------------------------------------------------------->
-
-
-    
-
-
-        <!-------------------------------------------------------------------------------------->
-
-        <div class="clearfix"></div>
-
-    
-
-
-
-        <div class="footer">
-            <p class="text-center">Copyright &copy;</p>
-        </div>
-
-    </div>
-
+    <div class="card-footer fixed-bottom text-center bg-dark text-white border-success">Copyright &copy;</div>
 </body>
 
 </html>
